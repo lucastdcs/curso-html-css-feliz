@@ -1,0 +1,24 @@
+h1 {
+    position: absolute;
+    color: #00a7a9;
+    font-family: 'Press Start 2P', cursive;
+    margin-right: 30px;
+    width: 400px;
+    height: 40px;
+    margin: 42px 137px 102px 90px;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+h2 {
+    position: absolute;
+    width: 540px;
+    height: 30px;
+    margin: 115px 47px 44px 40px;
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    color: #CCCCCC;
+    text-shadow: 4px 4px 0px #000000;
+}

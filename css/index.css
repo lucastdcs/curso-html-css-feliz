@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(58, 64, 66, 1);
+    border-bottom: 5px solid black;
+    padding: 20px 10px;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+a::before {
+    content: "";
+    background-color: #00a7a9;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+img {
+    max-width: 60px;
+    max-height: 60px;
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 1px #000000;
+}
+
+nav {
+    text-align: right;
+}
+
+#button {
+    display: inline-block;
+    background-color: #00a7a9;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 1px black;
+    margin-right: 0;
+    cursor: pointer;
+    transition: transform 90ms linear;
+}
+
+#button:hover {
+    transform: scale(1.020);
+    text-decoration: none;
+}
+
+div {
+    position: absolute;
+    background-color: rgba(58, 64, 66, 1);
+    width: 627px;
+    height: 184px;
+    left: 87px;
+    top: 205px;
+    box-shadow: 10px 10px 0px;
+}
+
+
+.btn1 {
+    position: absolute;
+    background-color: #00a7a9;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 5px 5px 1px black;
+    left: 177px;
+    top: 427px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    transition: transform 90ms linear;
+    cursor: pointer;
+}
+
+.btn2 {
+    position: absolute;
+    background-color: #00a7a9;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    box-shadow: 5px 5px 1px black;
+    left: 459px;
+    top: 427px;
+    font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    transition: transform 90ms linear;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    transform: scale(1.020);
+}
+
+.btn2:hover {
+    transform: scale(1.020);
+}

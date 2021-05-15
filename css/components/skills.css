@@ -1,0 +1,42 @@
+.skills {
+    display: flex;
+    height: 740px;
+    background-color: #082C28;
+    padding-left: 240px;
+    padding-right: 240px;
+    padding-bottom: 100px;
+}
+
+.skills .title {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 550px;
+
+}
+
+.progress {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.progress1 {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+
+.skills .wrapper {
+    display: flex;
+    margin-bottom: 38px;
+    text-align: left;
+}
+
+.icon {
+    display: inline;
+}
+
+.skills .subtitle {
+    margin-left: 25px;
+    margin-bottom: 16px;
+}

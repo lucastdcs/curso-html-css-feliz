@@ -1,0 +1,12 @@
+.projects {
+    background-color: black;
+    height: 520px;
+    border-bottom: 10px solid #00a7a9;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.projects .main-title{
+    color: white
+}

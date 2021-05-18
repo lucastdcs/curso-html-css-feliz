@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/components/title.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
     <link rel="stylesheet" href="css/components/button.css">
@@ -21,8 +21,10 @@
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/logo.css">
     <link rel="stylesheet" href="css/components/banner.css">
-    <link rel="stylesheet" href="css/components/skills.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/bar.css">
+    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
 </head>
 
 <body>
@@ -42,7 +44,7 @@
     <section class="banner">
         <div class="wrapper">
             <div class="box">
-                <h1 class="title">Lucas Teixeira</h1>
+                <h1 class="main-title">Lucas Teixeira</h1>
                 <h2 class="subtitle">FrontEnd Developer</h2>
             </div>
 
@@ -53,95 +55,19 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section class="section">
 
-        <h1 class="title" lang="en">Skills</h1>
+        <h1 class="main-title -second" lang="en">Skills</h1>
 
-        <div class="progress">
-            <div class="wrapper">
-                <img src="assets/images/ico_html5.png" alt="logohtml" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">HTML</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
+        <article class="skill-tec">
+            <img class="icon" src="assets/images/ico_html5.png" alt="logohtml">
+            <div class="right">
+                <h3 class="title">LUCAS</h3>
+                <progress class="progress-bar" max="100" value="70">
+                    70%
+                </progress>
             </div>
-
-
-
-            <div class="wrapper">
-                <img src="assets/images/ico_css3.png" alt="logocss" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">CSS</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="wrapper">
-                <img src="assets/images/ico_js.png" alt="logojs" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">JavaScript</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wrapper">
-                <img src="assets/images/ico_react.png" alt="logoreact" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">React</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="progress1">
-            <div class="wrapper">
-                <img src="assets/images/ico_nodejs.png" alt="logonode" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">NodeJS</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wrapper">
-                <img src="assets/images/ico_tdd.png" alt="logotdd" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">TDD</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wrapper">
-                <img src="assets/images/ico_restapi.png" alt="logorest" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">Rest API</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="wrapper">
-                <img src="assets/images/ico_ux.png" alt="logorux" class="icon">
-                <div class="dir">
-                    <h2 class="subtitle">UX</h2>
-                    <div class="bar">
-                        <div class="redbar"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </article>
     </section>
 </body>
 

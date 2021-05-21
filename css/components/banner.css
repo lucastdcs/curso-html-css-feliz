@@ -3,6 +3,7 @@
     background-image: url(../../assets/images/BANNER_BODY.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    -webkit-background-size: cover;
     height: 995px;
     border-bottom: 5px solid #000;
     padding-top: 115px;

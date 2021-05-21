@@ -1,4 +1,4 @@
-.action {
+.header-action {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -7,11 +7,11 @@
     margin-right: 30px;
     text-decoration: none;
 }
-.action:hover{
+.header-action:hover{
     text-decoration: underline;
 }
 
-.action::before {
+.header-action::before {
     content: "";
     background-color: #00a7a9;
     width: 10px;

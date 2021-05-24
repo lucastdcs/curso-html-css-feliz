@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgba(124, 94, 153, 1);
     width: 280px;
     height: 280px;
-    box-shadow: 10px 10px 0px #FFFFFF;
+    box-shadow: 10px 10px 0px #000;
 }
 
 .card-project.-blue{

@@ -10,11 +10,16 @@
     margin-bottom: 60px;
 }
 
-.main-section.-bgBlack{
+.main-section.-bgPurple1{
     height: 530px;
-    background-color: black;
+    background-color: #237EA7;
 }
 
 .main-section.-bdFirst{
-    border-bottom: 10px solid #1293a8;
+    border-bottom: 10px solid #000000;
+}
+
+.main-section.-bgPurple2{
+    height: 795px;
+    background-color:rgba(88, 63, 163, 1);
 }

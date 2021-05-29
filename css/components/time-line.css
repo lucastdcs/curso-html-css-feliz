@@ -1,35 +1,34 @@
-.line-dashed{
-    border:0;
+.line-dashed {
+    border: 0;
     border-top: 5px dashed #000;
 }
 
-.line{
+.line {
     border: 0;
     border-top: 5px solid #000;
 }
 
 .wrapper-timeline {
     display: flex;
+    align-items: center;
 }
 
-.timeline{
+.timeline {
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
     height: 140px;
     border: 5px solid #000;
     background-color: rgba(206, 176, 42, 1);
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
 
-.timeline.-caelum{
+.timeline.-caelum {
     padding-right: 0px;
-    padding-left:0px
+    padding-left: 0px
 }
 
-.timeline.-bgBlue1{
+.timeline.-bgBlue1 {
     background-color: rgba(76, 91, 132, 1);
 }
-
-

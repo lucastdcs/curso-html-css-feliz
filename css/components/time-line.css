@@ -1,16 +1,8 @@
-.line-dashed {
-    border: 0;
-    border-top: 5px dashed #000;
-}
-
-.line {
-    border: 0;
-    border-top: 5px solid #000;
-}
 
 .wrapper-timeline {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .timeline {

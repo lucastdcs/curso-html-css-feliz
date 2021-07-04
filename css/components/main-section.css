@@ -1,9 +1,10 @@
 .main-section {
     height: 740px;
     background-color: #1293A8;
-    padding-bottom: 100px;
+    padding-bottom:0px;
     padding-top: 50px;
     border-bottom: 10px solid #000;
+    overflow: hidden;
 }
 
 .main-section .main-title {
@@ -13,6 +14,9 @@
 .main-section.-bgPurple1{
     height: 530px;
     background-color: #237EA7;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 0px;
 }
 
 .main-section.-bdFirst{

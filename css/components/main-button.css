@@ -12,13 +12,19 @@
     color: #FFF;
     font-size: 20px;
     text-decoration: none;
-    
+}
+
+.main-button.-final {
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-style: bold;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
 }
 
 .main-button:hover {
     transform: scale(1.020);
     text-decoration: none;
 }
-
-
-

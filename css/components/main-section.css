@@ -1,8 +1,8 @@
 .main-section {
     height: 740px;
     background-color: #1293A8;
-    padding-bottom:0px;
-    padding-top: 50px;
+    padding-bottom: 0px;
+    padding-top: 100px;
     border-bottom: 10px solid #000;
     overflow: hidden;
 }
@@ -11,7 +11,7 @@
     margin-bottom: 60px;
 }
 
-.main-section.-bgPurple1{
+.main-section.-bgPurple1 {
     height: 530px;
     background-color: #237EA7;
     padding-left: 200px;
@@ -19,11 +19,21 @@
     padding-bottom: 0px;
 }
 
-.main-section.-bdFirst{
+.main-section.-bdFirst {
     border-bottom: 10px solid #000000;
 }
 
-.main-section.-bgPurple2{
+.main-section.-bgPurple2 {
     height: 795px;
-    background-color:rgba(88, 63, 163, 1);
+    background-color: rgba(88, 63, 163, 1);
+}
+
+.main-section.-last {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 860px;
+    background-color: rgba(97, 53, 162, 1);
+
 }

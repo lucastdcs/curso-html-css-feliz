@@ -27,9 +27,11 @@
     <link rel="stylesheet" href="css/components/card-project.css">
     <link rel="stylesheet" href="css/components/wrapper-card.css">
     <link rel="stylesheet" href="css/components/main-paragraph.css">
-    <link rel="stylesheet" href="css/components/time-line.css">
-    <link rel="stylesheet" href="css/components/arrow.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/main-line.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="js/components/main-carousel.js">
 </head>
 
 <body>
@@ -168,55 +170,71 @@
     </section>
     <section class="main-section -bgPurple2">
         <h2 class="main-title -second">Sobre</h2>
-        <hr class="line-dashed">
-        <hr class="line">
-        <div class="wrapper-timeline">
 
-            <button class="arrow">
-
-                <img src="assets/images/arrow-left.png" alt="seta esquerda">
-
-            </button>
-
-            <figure class="timeline">
-                <img class="empresa" src="assets/images/logo-locaweb.png" alt="Logo Locaweb">
-            </figure>
-
-            <figure class="timeline -caelum">
-                <img class="empresa" src="assets/images/logo-caelum.png" alt="Logo Caelum">
-            </figure>
-
-            <figure class="timeline -bgBlue1">
-                <img class="empresa" src="assets/images/logo-getninjas.png" alt="Logo Get Ninjas">
-            </figure>
-
-            <figure class="timeline -caelum">
-                <img class="empresa" src="assets/images/logo-caelum.png" alt="Logo Caelum">
-            </figure>
-
-            <figure class="timeline">
-                <img class="empresa" src="assets/images/logo-impulso.png" alt="Logo Impulso">
-            </figure>
-
-            <figure class="timeline -bgBlue1">
-                <img class="empresa" src="assets/images/logo-collabcode.png" alt="Logo CollabCode">
-            </figure>
+        <!--<hr class="line-dashed">
+        <hr class="line">-->
 
 
-            <button class="arrow">
+        <section class="main-carousel">
 
-                <img src="assets/images/arrow-right.png" alt="seta direita">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img class="empresa" src="assets/images/logo-locaweb.png" alt="Logo Locaweb">
+                        </div>
+                    </figure>
 
-            </button>
-        </div>
+                    <figure class="node-card -caelum">
+                        <figcaption class="title">2014</figcaption>
+                        <div class="logo">
+                            <img class="empresa" src="assets/images/logo-caelum.png" alt="Logo Caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -bgBlue1">
+                        <figcaption class="title">2016</figcaption>
+                        <div class="logo">
+                            <img class="empresa" src="assets/images/logo-getninjas.png" alt="Logo Get Ninjas">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -caelum">
+                        <figcaption class="title">2017</figcaption>
+                        <div class="logo">
+                            <img class="empresa" src="assets/images/logo-caelum.png" alt="Logo Caelum">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <div class="logo">
+                            <img class="empresa" src="assets/images/logo-impulso.png" alt="Logo Impulso">
+                        </div>
+                    </figure>
+
+                    <figure class="node-card -bgBlue1">
+                        <figcaption class="title">2019</figcaption>
+                        <div class="logo">
+                            <img class="empresa" src="assets/images/logo-collabcode.png" alt="Logo CollabCode">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+        </section>
 
         <p class="main-paragraph">Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas
             mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo
             seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end,
             trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da
             Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.</p>
-    </section>
 
+
+    </section>
+<script src="js/components/main-carousel.js"></script>
 
 </body>
 
